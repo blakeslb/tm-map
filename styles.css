@@ -1,0 +1,32 @@
+.city {
+    fill: white;
+    cursor: pointer; 
+    transition: fill .4s ease;
+
+}
+.city:hover {
+    fill: rgb(233, 194, 233);
+    cursor: pointer; 
+}
+#us-map {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#details-box {
+    padding: .5rem;
+    border-radius: 8px;
+    font-size: 15px;
+    position: fixed;
+    color: white;
+    font-family: "Poppins";
+    background-color: black;
+    width: fit-content;
+    transform: translateX(-50%);
+    transition: opacity .4s ease;
+    z-index: 1;
+}
+
