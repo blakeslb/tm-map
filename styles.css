@@ -5,7 +5,7 @@
 
 }
 .city:hover {
-    fill: rgb(233, 194, 233);
+    fill: rgb(123, 123, 240);
     cursor: pointer; 
 }
 #us-map {
@@ -19,14 +19,15 @@
 #details-box {
     padding: .5rem;
     border-radius: 8px;
-    font-size: 15px;
+    font-size: 12px;
     position: fixed;
     color: white;
     font-family: "Poppins";
-    background-color: black;
+    background-color: rgb(123, 123, 240);
     width: fit-content;
     transform: translateX(-50%);
     transition: opacity .4s ease;
     z-index: 1;
 }
+
 
